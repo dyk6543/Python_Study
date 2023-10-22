@@ -1,0 +1,11 @@
+a = {'A':90, 'B':80, 'C':70}
+
+result = a['B']
+
+result2 = list(a.values())
+
+print(a)
+
+print(result)
+
+print(result2[1])

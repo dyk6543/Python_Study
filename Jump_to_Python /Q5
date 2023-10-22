@@ -1,0 +1,4 @@
+Str = "a:b:c:d"
+Str_replace = Str.replace(":" , "#")
+
+print(Str_replace)

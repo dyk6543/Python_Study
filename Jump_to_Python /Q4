@@ -1,0 +1,5 @@
+pin=input('주민등록번호를 입력하시오:')
+
+a= print(pin[7])
+
+print(a)

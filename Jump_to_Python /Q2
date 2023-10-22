@@ -1,1 +1,12 @@
+A = int(input('숫자를 입력하시오:'))
+if A % 2 ==0:
+    print("%d는 홀수입니다"%(A))
+else : print("%d는 짝수입니다."%(A))
 
+
+A = int(input('숫자를 입력하시오:'))
+if A % 2!=0:
+    print(f'{A}는 홀수입니다')
+else : print(f'{A}는 짝수입니다.')
+
+두가지 모두 표현 가능

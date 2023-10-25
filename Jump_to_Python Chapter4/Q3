@@ -1,0 +1,7 @@
+input1 = int(input('첫번째 숫자를 입력하세요:'))
+input2 = int(input('두번째 숫자를 입력하세요:'))
+
+total = input1 + input2
+print('두 수의 합은 %s입니다' %total)
+
+#input대신 int(input)으로 type 변경

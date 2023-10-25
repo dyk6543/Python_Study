@@ -1,0 +1,7 @@
+print('you''need''python')
+print('you'+'need'+'python')			
+print('you','need','python')
+print("".join(['you','need','python']))
+
+#3번 : you need python 으로 출력
+#나머지 : youneedpython

@@ -1,0 +1,7 @@
+import sys
+
+sys.argv_list = list(map(int,sys.argv))
+
+print(sum(sys.argv_list))
+
+#python myargv.py 1 2 3 ~ 10 으로 입력 시 ['myargv.py','1,'2''3'~ '10'] 으로 이어짐

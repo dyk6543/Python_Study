@@ -1,0 +1,2 @@
+#map, lambda 사용 [1,2,3,4] 에서 [3,6,9,12] 만들기
+print(list(map(lambda x: x * 3, [1, 2, 3, 4])))

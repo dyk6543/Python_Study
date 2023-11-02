@@ -1,0 +1,5 @@
+#itertools.permutation : 반복 가능 객체 중에서 r개 선택 순열을 이터레이터로 리턴
+import itertools
+result = list(itertools.permutations('abcd',4))
+for r in result:
+  print(''.join(r))

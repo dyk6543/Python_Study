@@ -1,0 +1,7 @@
+import time
+#print(time.time())  # 현재 시간 실수 형태로 리턴
+#print(time.localtime())  # 현재 시간 정보 반환
+#print(time.asctime(time.localtime())) #튜플형태의 값 인수로 받아 알아보기 쉬운 형태로 반환
+#print(time.ctime()) #asctime과 같으나, 항상 현재 시간만을 리턴함
+#print(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))  # 현재 시간 정보 반환
+print(time.strftime("%Y/%M/%D %H:%M:%S", time.localtime()))

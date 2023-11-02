@@ -1,0 +1,18 @@
+# 난수 발생 모듈
+import random
+#print(random.random()) #0~1 사이의 수 발생
+#print(random.randint(1,10)) #1~10 사이의 수 발생
+#print(random.randrange(1,10)) #1~10 사이의 수 발생
+#print(random.choice(['a','b','c'])) # 리스트 중 하나 선택
+print(random.sample(range(1,46),6))
+
+답지랑 풀이 다름 똑같은 결과
+import random
+
+result = []
+while len(result)<6:
+  num = random.randint(1,45)
+  if num not in result:
+    result.append(num)
+
+print(result)

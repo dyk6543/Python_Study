@@ -1,0 +1,9 @@
+import random
+import itertools
+
+A = ['김승현','김진호','강춘자','이예준','김현주']
+B = ['청소','빨래','설거지']
+
+result = itertools.zip_longest(A,B,fillvalue = '휴식')
+for i in result:
+  print(i)

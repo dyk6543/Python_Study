@@ -1,0 +1,7 @@
+# 표준 라이브러리 datetime.date 객체
+import datetime
+day1 = datetime.date(1995,11,20)
+day2 = datetime.date(1998,10,6)
+
+diff = day2 - day1
+print(diff.days)  # 두날짜의 차이

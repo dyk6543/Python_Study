@@ -1,0 +1,6 @@
+garo = 200
+sero = 80
+import math
+a = math.gcd(garo,sero)
+print(a)
+print(garo/a * sero/a)

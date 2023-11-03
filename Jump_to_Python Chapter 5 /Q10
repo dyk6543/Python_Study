@@ -1,1 +1,3 @@
-
+import glob
+glob.glob('c:/doit/*.py') 
+# *.py 형태 모두 가져옴
